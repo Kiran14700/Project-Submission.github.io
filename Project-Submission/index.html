@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="css/Signup.css"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css properly not wokring in php dont'konw the reason -->
+ 
+
+<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div id="whole-page">
+        <img src="img/13824.jpg" alt="Background Image">
+        <div id="main">
+            <p class="font" id="Signin">Already a member? <a href="Signin.php"  style="color:rgb(132, 76, 235)">Signin</a></p>
+            <div id="mainContent">
+                <h2 id="heading">Sign up to Dribble</h2>
+                <p style="color:red">⬤ Username has already been taken
+
+                </p>
+                <form action="Profile.html" method="get" id="form">
+                    <div id="name">
+                        <label for="name">Name</label>
+                        <input type="text" name="Name" class="box1">
+                    </div>
+                    <div id="username">
+                        <label for="username">Username</label>
+                        <input type="text" name="Username" class="box2">
+                    </div>
+                    <div id="email" class="inpBx3">
+                        <label for="email">Email</label>
+                        <input type="email" name="Email" class="box3">
+                    </div>
+                    <div id="password" class="inpBx3">
+                        <label for="password">Password</label>
+                        <input type="password" name="Password" class="box3" placeholder="6+ characters">
+                    </div>
+                    <div class="remember">
+                        <label>
+                            <input type="checkbox" name=""> Creating an account means you're okay with our <a href="http://" style="color:rgb(132, 76, 235)">Terms of Service</a>,<a href="http://" style="color:rgb(132, 76, 235)">Privacy Policy</a>,  and our <a href="http://" style="color:rgb(132, 76, 235)">default Notification Settings</a>.
+                        </label>
+                    </div>
+                    <div class="inputBx">
+                        <input type="submit" name="submit" value="Create Account" id="submit">
+                    </div>
+
+                    <p>This site is protected by reCAPTCHA and the Google <a href="http://" style="color:rgb(132, 76, 235)">Privacy Policy</a> and <a href="http://" style="color:rgb(132, 76, 235)">Terms of Service</a> apply</p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
