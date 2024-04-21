@@ -1,0 +1,100 @@
+/* Your CSS styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  
+}
+
+#logo {
+    color: #ff00ff;
+    margin: 0px 20px 0px 0px;
+    height: 2%;
+    width: 5%;
+    position: relative;
+    left: 20px;
+    font-family: cursive;
+}
+
+#content {
+    width: 70%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.small {
+    margin: 15px 0px 30px 0px;
+}
+
+.avatar {
+    font-weight: 900;
+    margin: 40px 0px 15px 0px;
+    font-size: 18px;
+}
+
+#profile {
+    border: 2px dotted grey;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 21px auto 10px;
+    display: inline-block;
+}
+
+#Uploading-img {
+    display: inline-block;
+
+   vertical-align: top; /*  Align to the top of the profile image */
+    margin-left: 10px; /* Adjust margin for spacing */
+    border-color: 2px solid red;
+}
+
+.location {
+    /* border: 2px solid grey; */
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-style: 0px 0px 2px 0px ;
+}
+
+.button {
+    background-color: #dd13ddda;
+    padding: 10px 50px;
+    color: white;
+    margin: 20px 0;
+    border-radius: 10px;
+    border: none;
+}
+
+.button:hover {
+    background-color: rgba(255, 0, 255, 1);
+}
+@media only screen and (max-width: 600px) {
+    /* Adjustments for smaller screens */
+    #content {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .avatar {
+        font-size: 16px;
+    }
+
+    .button {
+        padding: 10px 30px;
+    }
+
+    #logo {
+        height: 15%; /* Increased height for smaller screens */
+        width: 15%; /* Increased height for smaller screens */
+    }
+}
